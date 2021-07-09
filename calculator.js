@@ -1,14 +1,4 @@
-function sum(a,b){
-    return a+b;
-}
-function sub(a,b){
-    return a-b;
-}
-function multi(a,b){
-    a*b;
-}
-function div(a,b){
-    a/b;
-}
+const sum = require('./functions/sum')
 
-console.log(sub(2,8));
+console.log(sum(2,8));
+ 
