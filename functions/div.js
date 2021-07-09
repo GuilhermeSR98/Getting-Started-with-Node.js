@@ -1,5 +1,5 @@
-const div = function(a,b){
-    return a/b;
-}
+const div = function (a, b) {
+  return a / b;
+};
 
-module.exports=div;
+module.exports = div;
