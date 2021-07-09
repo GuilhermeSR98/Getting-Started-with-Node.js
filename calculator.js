@@ -1,4 +1,6 @@
-const sum = require('./functions/sum')
+const sum = require('./functions/sum');
+const div = require('./functions/div');
+const sub = require('./functions/sub');
 
-console.log(sum(2,8));
+console.log(div(sum(8,7), sub(9,3)));
  
